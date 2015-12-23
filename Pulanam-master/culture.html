@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0;user-scalable=no;target-densityDpi=device-dpi" />
+
+<title>தமிழன் என்று சொல்லுடா தலை நின்று நில்லுடா </title>
+<link rel="stylesheet" href="css/Bootstrap.css">
+<link rel="stylesheet" href="./css/jquery.mobile-1.4.1.min.css" />
+<link rel="stylesheet" href="./css/jqm-icon-pack-fa.css" />
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="./css/leaflet.ie.css" />
+<![endif]-->
+
+<script src="phonegap.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<!-- scroll -->
+<link href="css/jquery.mobile.iscrollview.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.mobile.iscrollview-pull.css" rel="stylesheet" type="text/css" />
+<script src="./js/iscroll.js" type="text/javascript"></script>
+<script src="./js/jquery.mobile.iscrollview.js" type="text/javascript"></script>
+<script src="./js/pull.js" type="text/javascript"></script>
+
+</head>
+
+<body onunload="dismiss();">
+<div data-role="page" id="postCulture" class="indexpage">
+	
+	
+<div data-role="header" data-position="fixed" data-theme="d">
+<a href="#menu" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-left ui-nodisc-icon"></a>
+<h1>பண்பாடு</h1>
+<a href="#tamizh" class="ui-btn ui-icon-info ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon">TAMIZH</a>
+</div>
+
+<div data-role="panel" id="menu" data-position="left" data-theme="d" data-display="overlay">
+<ul data-role="listview">
+<li data-icon="home" data-theme="e"><a href="index.html" rel="external">தமிழ்</a></li>
+<li data-icon="false">பிரிவுகள்</li>
+<li data-icon="carat-r"><a href="language.html" rel="external">மொழி</a></li>
+<li data-icon="carat-r"><a href="race.html" rel="external">இனம்</a></li>
+<li data-icon="carat-r"><a href="culture.html" rel="external">பண்பாடு</a></li>
+<li data-icon="carat-r"><a href="history.html" rel="external">வரலாறு</a></li>
+<li data-icon="carat-r"><a href="lifeology.html" rel="external">வாழ்வியல்</a></li>
+<li data-icon="carat-r"><a href="philosophy.html" rel="external">மெய்யியல்</a></li>
+<li data-icon="carat-r"><a href="science.html" rel="external">அறிவியல்</a></li>
+<li data-icon="carat-r"><a href="finance.html" rel="external">பொருளியல்</a></li>
+<li data-icon="carat-r"><a href="technology.html" rel="external">நுட்பம்</a></li>
+<li data-icon="carat-r"><a href="music.html" rel="external">இசை</a></li>
+</ul>
+
+</div>
+
+<div data-role="panel" id="omtamil" data-position="right" data-display="overlay">
+<ul data-role="listview">
+<li data-icon="delete" data-rel="close" data-theme="e"><a href="#">செயலிப் பற்றி..</a></li>
+<center>
+<br>
+<img src="img/pulanam.png">
+<small><p>பதிப்பு 1.0.0
+<p>
+<small>தமிழ் <i>WhatsApp</i> செயலியில் பகிரப்படும் தமிழ்ச் சார்ந்த சிறந்த செய்திகள், படங்கள், காணொளிகள் சேமிக்கப்பட்டு இந்தச் செயலியில் காப்பகமாக கிடைக்கப்பெறும். இதன்வழி மிகவும் பயனுள்ள பதிவுகள், பகிர்வுகள் என்றும் நிலைப்பெற்றிருக்கும்.<br>
+<br><font color="orange">தமிழ் வாழ்க..</font></small>
+<br><br>
+<img src="img/default.jpg" width="40%">
+<br>
+© TAMIZH DOTCOM (0104665625)  </small>
+<br>
+<br>
+<a href="http://tamizh.com" rel="external">www.tamizh.com</a>
+</center>
+</ul>
+</div>
+	
+<div data-role="main" data-role="content" class="ui-content" data-theme="b" id="content" data-iscroll>
+
+<ul data-role="listview" id="postsList" data-theme="a" data-filter="true" data-inset="true" data-filter-placeholder="தேடவும்" class="ui-listview">		
+</ul>  
+<div class="eon" style="display:none;text-align:center;"> No More contents to load. </div>
+<div class="iscroll-pullup">
+    <span class="iscroll-pull-icon"></span><span class="iscroll-pull-label"></span>
+</div>     
+</div>
+
+</div> 
+
+</body>
+</html>
