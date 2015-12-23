@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kiru.tamilanda" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.omtamil.pulanam" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>புலனம்</name>
     <description>
-TAMIZH - Tamil WhatsApp Archive
+Pulanam - Tamil WhatsApp Archive
     </description>
-    <author email="kiru@tamil.com" href="http://tamil.com">
-KIRU REAL TAMIZHAN
+    <author email="muhelen@omtamil.com" href="http://omtamil.com">
+MUHELEN MURUGAN
     </author>
 
     <content src="index.html" />
